@@ -1,0 +1,76 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 1.5,
+      "type": "Sphere"
+    },
+    "boundingVolumeMissileCfg": {
+      "radius": 1.5,
+      "type": "Sphere"
+    },
+    "gravity": 1,
+    "hitCount": {
+      "hitEntityCount": 3,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "once": true,
+      "scale": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "hitEntitySkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967",
+    "hitEntitySound": {
+      "volume": {
+        "value": 0.97
+      }
+    },
+    "hitInterval": {
+      "value": 30
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Black Spherical Bomb/zhadan.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "missile_7497a5aa-0816-4328-bc72-3ae77ca7e6ba"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Flame Ball with Sparks Effect/gfxy207_light ball_orange_3d.effect"
+      },
+      "once": true,
+      "scale": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "startSound": {
+      "volume": {
+        "value": 0.97
+      }
+    },
+    "target_team": "hitOtherTeam",
+    "vanishEffect": {
+      "once": true,
+      "scale": {
+        "x": 4,
+        "y": 4,
+        "z": 4
+      }
+    },
+    "vanishSkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4e79451f60de723e790396c964b863f3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

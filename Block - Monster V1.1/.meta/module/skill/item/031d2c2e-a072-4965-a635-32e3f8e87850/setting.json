@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "name": {
+      "value": "skill_031d2c2e-a072-4965-a635-32e3f8e87850"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 20
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7ddd66ec8357865d3193dd40d95383f3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

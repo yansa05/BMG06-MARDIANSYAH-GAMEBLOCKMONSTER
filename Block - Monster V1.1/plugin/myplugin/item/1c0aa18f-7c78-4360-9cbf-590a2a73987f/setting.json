@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Skill/common/itemicon_bomb.png",
+  "itemname": "item_1c0aa18f-7c78-4360-9cbf-590a2a73987f",
+  "mesh": "asset/Mesh/Black Spherical Bomb/zhadan.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/3fb19567-5227-490e-a2cc-29051b9dc205"
+  ],
+  "stack_count_max": 20,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

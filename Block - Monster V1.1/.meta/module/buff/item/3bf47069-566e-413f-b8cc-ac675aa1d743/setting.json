@@ -1,0 +1,21 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Blue Sphere Shield Effect/gfxy207_ round shield_blue_01_3d.effect"
+      },
+      "yaw": 1
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_3bf47069-566e-413f-b8cc-ac675aa1d743"
+    },
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0a1f4f252655267f2f67d6f73e88b62b"
+    },
+    "VERSION": "0.24"
+  }
+}

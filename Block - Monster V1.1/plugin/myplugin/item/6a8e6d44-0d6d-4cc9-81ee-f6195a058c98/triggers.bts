@@ -1,0 +1,10 @@
+USE_ITEM {
+	StartTimer2(interval = 40, time = 1, timer = "") {
+		ChangeEntityActor(entity = $obj1, name = "Actor/Gray Mask Female Assassin/Female Swordsman In Silver Suit.actor")
+		AddSkill(entity = $obj1, name = "myplugin/389362d6-aa8e-45fc-a0f2-8015803d50be")
+		StartTimer2(interval = 1200, time = 1, timer = "") {
+			ChangeEntityActor(entity = $obj1, name = "Actor/charactor/charactor_boy/character_boy.actor")
+			RemoveSkill(entity = $obj1, name = "myplugin/389362d6-aa8e-45fc-a0f2-8015803d50be")
+		}
+	}
+}

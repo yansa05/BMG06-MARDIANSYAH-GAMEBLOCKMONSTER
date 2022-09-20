@@ -1,0 +1,6 @@
+SKILL_CAST {
+	StartTimer2(interval = 400, time = 1, timer = "") {
+		RemoveBuffByFullName(buff = "myplugin/3bf47069-566e-413f-b8cc-ac675aa1d743", entity = $obj1, toTeam = false)
+	}
+	RemoveSkill(entity = $obj1, name = "myplugin/d1046d6f-6023-4601-b305-4f313cf83896")
+}

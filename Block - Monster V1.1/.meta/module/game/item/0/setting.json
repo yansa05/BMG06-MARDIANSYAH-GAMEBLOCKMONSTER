@@ -1,0 +1,1038 @@
+{
+  "data": {
+    "collisionGroup": {
+      "items": [
+        [],
+        {
+          "matrix": "11",
+          "name": "Group2"
+        },
+        {
+          "matrix": "111",
+          "name": "Group3"
+        },
+        {
+          "matrix": "1111",
+          "name": "Group4"
+        }
+      ]
+    },
+    "defaultView": "Back",
+    "enableNewLighting": true,
+    "firstPerson_dragView": false,
+    "firstPerson_enable": {
+      "enable": false
+    },
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 7,
+        "y": 1.04,
+        "z": 37
+      }
+    },
+    "nowTime": {
+      "h": 1,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 2
+    },
+    "playTime": {
+      "value": 6000
+    },
+    "qualityLevel": "1",
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 7,
+        "y": 1.04,
+        "z": 37
+      }
+    },
+    "team": {
+      "automatch": true,
+      "team": [
+        {
+          "actorName": {
+            "asset": "asset/Actor/Gray Armor Warrior/Passers-by.actor",
+            "selector": "editor/Block - Monster V1.1/asset/Actor/Gray Armor Warrior/Passers-by.actor"
+          },
+          "image": {
+            "selector": "editor/Block - Monster V1.1/asset/Texture/Team/flag/flag_1.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": -0.0423282086849213,
+              "y": 1.54001049041748,
+              "z": -38.2480049133301
+            }
+          },
+          "memberLimit": 3,
+          "name": "Team Red",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": -0.0505285263061523,
+              "y": 1.54001287460327,
+              "z": -38.5139312744141
+            }
+          }
+        },
+        {
+          "actorName": {
+            "asset": "asset/Actor/Gray Armor Warrior/Passers-by.actor",
+            "selector": "editor/Block - Monster V1.1/asset/Actor/Gray Armor Warrior/Passers-by.actor"
+          },
+          "id": 2,
+          "image": {
+            "asset": "asset/Texture/Team/flag/flag_8.png",
+            "selector": "editor/Block - Monster V1.1/asset/Texture/Team/flag/flag_8.png"
+          },
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 0.738259196281433,
+              "y": 1.54000071525574,
+              "z": 39.9676284790039
+            }
+          },
+          "memberLimit": 3,
+          "name": "Team Blue",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 0.453183889389038,
+              "y": 1.54000071525574,
+              "z": 40.329833984375
+            }
+          }
+        }
+      ]
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "615d808b-35d0-4240-ad0d-77f2554649b0"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c99ac35c-a8fb-45cf-82ec-718084dbabf2"
+              },
+              "pos": {
+                "x": 452.812841658937,
+                "y": 40.5253828207432
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "979be1a4-f4b9-4acd-b434-e9a96b7683e0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "22c58310-3f35-457f-a58c-1bdc7b560c1e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 20,
+                            "y": 1,
+                            "z": -20
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "615d808b-35d0-4240-ad0d-77f2554649b0"
+              },
+              "pos": {
+                "x": 704.23,
+                "y": 399.8375
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "22c58310-3f35-457f-a58c-1bdc7b560c1e"
+              },
+              "pos": {
+                "x": 1383.63,
+                "y": 267.7225
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/a88b5576-e481-4298-8cd6-3f339b4b5865"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "979be1a4-f4b9-4acd-b434-e9a96b7683e0"
+              },
+              "pos": {
+                "x": 1017.81284165894,
+                "y": 7.52538282074319
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "111b0fc1-ca57-4ae8-9cb7-cafc4d416e25"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b3e7494e-bd82-462d-9ed8-b137f9f21ba4"
+              },
+              "pos": {
+                "x": 476,
+                "y": 375.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/2ab8bc60-c167-4784-ba76-7219781cf5f1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0c8b84ba-8a5c-4c51-9937-240c04565adf"
+              },
+              "pos": {
+                "x": 1355.085,
+                "y": 442.1675
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0c8b84ba-8a5c-4c51-9937-240c04565adf"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "85f22e18-2729-434b-bf9a-99b756facaf1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -20,
+                            "y": 2,
+                            "z": 20
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "111b0fc1-ca57-4ae8-9cb7-cafc4d416e25"
+              },
+              "pos": {
+                "x": 866,
+                "y": 664.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "85f22e18-2729-434b-bf9a-99b756facaf1"
+              },
+              "pos": {
+                "x": 1379,
+                "y": 763.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "940f5076-5ac9-429b-8aa7-1b0410c05f57"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bddbd922-38ac-42e7-bcc8-dfc4f0bd2fb4"
+              },
+              "pos": {
+                "x": 494.51328215978,
+                "y": 813.71499417738
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "569decee-5c38-4c5e-9ef4-6e322ea2d77a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "97c2a74e-e5cc-4664-9a7b-0dd378fd1c23"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 20,
+                            "y": 1,
+                            "z": 20
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "940f5076-5ac9-429b-8aa7-1b0410c05f57"
+              },
+              "pos": {
+                "x": 768.205312863914,
+                "y": 1080
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "97c2a74e-e5cc-4664-9a7b-0dd378fd1c23"
+              },
+              "pos": {
+                "x": 1311,
+                "y": 1164
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/f255f821-0d20-4a7d-8546-88a62c8d191a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "569decee-5c38-4c5e-9ef4-6e322ea2d77a"
+              },
+              "pos": {
+                "x": 1414.6775,
+                "y": 888.7425
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "ef3a2120-f2ea-4e92-9206-e1b5128865a6"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d78bd331-9f13-4332-a4b2-91c84c6615a2"
+              },
+              "pos": {
+                "x": 423.269923239678,
+                "y": 1167.62381948204
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "38a5863c-b956-4a3b-b5f2-785633d202e2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "c1b1e170-c7d6-4383-b13d-76942f652a4b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -20,
+                            "y": 2,
+                            "z": -20
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ef3a2120-f2ea-4e92-9206-e1b5128865a6"
+              },
+              "pos": {
+                "x": 834,
+                "y": 1458
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c1b1e170-c7d6-4383-b13d-76942f652a4b"
+              },
+              "pos": {
+                "x": 1467.74,
+                "y": 1574.56
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/f1e66ae6-a5d0-4bf5-b95b-63d086d0e886"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "38a5863c-b956-4a3b-b5f2-785633d202e2"
+              },
+              "pos": {
+                "x": 1454,
+                "y": 1287
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 1000
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "64cf8160-5afa-42af-a80d-7794964870a0"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ae3f6991-e270-4c4e-a5ea-1e21bb5b348e"
+              },
+              "pos": {
+                "x": 90,
+                "y": 1469
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b91b3058-17ff-404c-97d1-c2cbd5a127d5"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "98d11e26-4ac2-430b-9f61-659d417807f8"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "y": 31
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "64cf8160-5afa-42af-a80d-7794964870a0"
+              },
+              "pos": {
+                "x": 505,
+                "y": 1649
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/ad778416-44c4-4592-b738-0dab6075453c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b91b3058-17ff-404c-97d1-c2cbd5a127d5"
+              },
+              "pos": {
+                "x": 1197,
+                "y": 1661
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "map001"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "98d11e26-4ac2-430b-9f61-659d417807f8"
+              },
+              "pos": {
+                "x": 1136,
+                "y": 1983
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c6f8967e-f638-413a-8862-02b90b0ec8fc"
+            },
+            "type": "Trigger_GameGo"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c99ac35c-a8fb-45cf-82ec-718084dbabf2"
+                  },
+                  {
+                    "action": "b3e7494e-bd82-462d-9ed8-b137f9f21ba4"
+                  },
+                  {
+                    "action": "bddbd922-38ac-42e7-bcc8-dfc4f0bd2fb4"
+                  },
+                  {
+                    "action": "d78bd331-9f13-4332-a4b2-91c84c6615a2"
+                  },
+                  {
+                    "action": "ae3f6991-e270-4c4e-a5ea-1e21bb5b348e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "72f2854f-30ed-4672-a4b3-e22a839dea70"
+            },
+            "pos": {
+              "x": 111.326604007479,
+              "y": 268.782263995014
+            }
+          },
+          "type": "Trigger_GameGo"
+        }
+      ]
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "Score"
+        }
+      ]
+    },
+    "waitPlayerTime": {
+      "value": 200
+    },
+    "waitStartTime": {
+      "value": 60
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5bb5091dd2077dd872363234752bd0b3",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "db879c07b8a811fbe0baddd581ea2e18",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

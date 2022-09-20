@@ -1,0 +1,143 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "47b80ae1-23c1-4eb8-b2ed-e859316b2700"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/b67e27ca-a1ae-47c0-b802-4cc9a2bc3979"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b5c03d09-b625-4e76-8058-cabaefa25e3d"
+              },
+              "pos": {
+                "x": 443,
+                "y": 90
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "from"
+                }
+              ],
+              "id": {
+                "value": "47b80ae1-23c1-4eb8-b2ed-e859316b2700"
+              },
+              "pos": {
+                "x": 808,
+                "y": 2
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_DestoryPart",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Part",
+                        "action": "c0e42c82-5f50-48d8-b74b-357d81dc2761"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "07410fa3-d7e7-4ec7-a0be-b9d4ad8ddfd6"
+              },
+              "pos": {
+                "x": 399,
+                "y": 293
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "part1"
+                }
+              ],
+              "id": {
+                "value": "c0e42c82-5f50-48d8-b74b-357d81dc2761"
+              },
+              "pos": {
+                "x": 742,
+                "y": 368
+              },
+              "type": "T_Part"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "766cdf55-0911-4f43-83f0-33f69a23a745"
+            },
+            "type": "Trigger_PartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b5c03d09-b625-4e76-8058-cabaefa25e3d"
+                  },
+                  {
+                    "action": "07410fa3-d7e7-4ec7-a0be-b9d4ad8ddfd6"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "2e45bc2e-9cff-4654-b779-da4be3abd705"
+            },
+            "pos": {
+              "x": 186,
+              "y": 79
+            }
+          },
+          "type": "Trigger_PartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "a11316b5fb8e709ef75bde90e8ed2d2b"
+    },
+    "VERSION": "0.24"
+  }
+}

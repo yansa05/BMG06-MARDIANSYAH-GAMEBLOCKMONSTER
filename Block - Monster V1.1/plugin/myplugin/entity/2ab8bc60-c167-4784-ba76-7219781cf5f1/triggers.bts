@@ -1,0 +1,10 @@
+ENTITY_CLICK {
+	Damage(damage = 5, entity = $obj1, from = $obj2)
+}
+
+ENTITY_DIE {
+	CreatePartByPartStorage(id = "8808218817772568577", map = "map001", pos = { x = -20, y = 2, z = 20 })
+	StartTimer2(interval = 400, time = 1, timer = "") {
+		ReviveEntity(entity = $obj1, map = GetStaticMap(create = true, name = "map001"), pos = { x = -20, y = 1, z = 20 })
+	}
+}

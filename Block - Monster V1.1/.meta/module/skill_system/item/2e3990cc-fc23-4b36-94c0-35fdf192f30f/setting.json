@@ -1,0 +1,35 @@
+{
+  "data": {
+    "attackBound": {
+      "height": 2,
+      "radius": 1,
+      "type": "Cylinder"
+    },
+    "attackBoundSkillSystemCfg": {
+      "height": 2,
+      "memory": {
+        "Sphere": "1.000000-0.500000"
+      },
+      "radius": 1,
+      "type": "Cylinder"
+    },
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "castAction": {
+      "castAction": "attack1"
+    },
+    "isLimit": true,
+    "maxAttackNumber": 3,
+    "name": {
+      "value": "skill_system_2e3990cc-fc23-4b36-94c0-35fdf192f30f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b0e253f1c688a3993a8aed8fc711c582",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_aa3d07a3-b481-4bfc-a7af-24efccdec95f"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardItem",
+          "countRange": {
+            "max": 2,
+            "min": 1
+          },
+          "name": "myplugin/1c0aa18f-7c78-4360-9cbf-590a2a73987f"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "aea3b0a5c2a98120338b286bfa45eef6"
+    },
+    "VERSION": "0.24"
+  }
+}

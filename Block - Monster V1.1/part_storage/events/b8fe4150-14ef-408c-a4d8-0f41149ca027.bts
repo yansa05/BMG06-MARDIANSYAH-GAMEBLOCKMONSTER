@@ -1,0 +1,4 @@
+PART_CLICKED {
+	AddItem(cfg = "myplugin/b67e27ca-a1ae-47c0-b802-4cc9a2bc3979", count = 1, entity = $from, reason = "")
+	DestoryPart(part = $part1)
+}

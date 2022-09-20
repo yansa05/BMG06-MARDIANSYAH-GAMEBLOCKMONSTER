@@ -1,0 +1,95 @@
+{
+  "data": {
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "cb0b095e-3b4b-4df2-b047-026c43f56341",
+        "density": 1.26,
+        "friction": 0.28,
+        "id": "8807824218134282241",
+        "massCenter": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "material": {
+          "color": {
+            "g": 164,
+            "r": 200
+          },
+          "texture": "part_mutou.tga"
+        },
+        "name": "Block_Item_Bomb",
+        "position": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "restitution": 0.15,
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "ac19a920-6e1e-4614-b74b-783c52991322",
+        "density": 1.26,
+        "friction": 0.28,
+        "id": "8807897350568951809",
+        "massCenter": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "material": {
+          "color": {
+            "b": 17,
+            "g": 106,
+            "r": 170
+          },
+          "texture": "part_mutou.tga"
+        },
+        "name": "Block_Item_Monster",
+        "position": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "restitution": 0.15,
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part_Storage",
+        "btsKey": "b8fe4150-14ef-408c-a4d8-0f41149ca027",
+        "density": 1.26,
+        "friction": 0.28,
+        "id": "8808218817772568577",
+        "massCenter": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "material": {
+          "color": {
+            "b": 17,
+            "g": 106,
+            "r": 170
+          },
+          "texture": "part_mutou.tga"
+        },
+        "name": "Block_Item_Defend",
+        "position": {
+          "x": 20,
+          "y": 2,
+          "z": -20
+        },
+        "restitution": 0.15,
+        "useAnchor": true
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1e73d9126aeaa4c1a9578e672b4cfe27"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Skill/common/itemicon_bomb.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3fb19567-5227-490e-a2cc-29051b9dc205"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black Spherical Bomb/zhadan.mesh"
+    },
+    "name": {
+      "value": "item_1c0aa18f-7c78-4360-9cbf-590a2a73987f"
+    },
+    "stack_count_max": 20
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0187836e3eb3eaafd3ab089ba37a80dd",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Skill/common/equip_shield_blue.png",
+  "itemname": "item_b67e27ca-a1ae-47c0-b802-4cc9a2bc3979",
+  "mesh": "asset/Mesh/Purple Rectangular Paper Talisman/g2030_build_fuzhou.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 20,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

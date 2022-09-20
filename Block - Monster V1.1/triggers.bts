@@ -1,0 +1,107 @@
+GAME_GO {
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		ReviveEntity(
+			entity = CreateNpc(
+			cfgName = "myplugin/a88b5576-e481-4298-8cd6-3f339b4b5865",
+			enableAI = false,
+			level = 0,
+			name = "",
+			pos = {
+				x = 0,
+				y = 0,
+				z = 0
+			}
+		),
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = {
+				x = 20,
+				y = 1,
+				z = -20
+			}
+		)
+	}
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		ReviveEntity(
+			entity = CreateNpc(
+			cfgName = "myplugin/2ab8bc60-c167-4784-ba76-7219781cf5f1",
+			enableAI = false,
+			level = 0,
+			name = "",
+			pos = {
+				x = 0,
+				y = 0,
+				z = 0
+			}
+		),
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = {
+				x = -20,
+				y = 2,
+				z = 20
+			}
+		)
+	}
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		ReviveEntity(
+			entity = CreateNpc(
+			cfgName = "myplugin/f255f821-0d20-4a7d-8546-88a62c8d191a",
+			enableAI = false,
+			level = 0,
+			name = "",
+			pos = {
+				x = 0,
+				y = 0,
+				z = 0
+			}
+		),
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = {
+				x = 20,
+				y = 1,
+				z = 20
+			}
+		)
+	}
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		ReviveEntity(
+			entity = CreateNpc(
+			cfgName = "myplugin/f1e66ae6-a5d0-4bf5-b95b-63d086d0e886",
+			enableAI = false,
+			level = 0,
+			name = "",
+			pos = {
+				x = 0,
+				y = 0,
+				z = 0
+			}
+		),
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = {
+				x = -20,
+				y = 2,
+				z = -20
+			}
+		)
+	}
+	StartTimer2(interval = 1000, time = 1, timer = "") {
+		ReviveEntity(
+			entity = CreateNpc(
+			cfgName = "myplugin/ad778416-44c4-4592-b738-0dab6075453c",
+			enableAI = false,
+			level = 0,
+			name = "",
+			pos = {
+				x = 0,
+				y = 0,
+				z = 0
+			}
+		),
+			map = GetStaticMap(create = true, name = "map001"),
+			pos = {
+				x = 0,
+				y = 31,
+				z = 0
+			}
+		)
+	}
+}

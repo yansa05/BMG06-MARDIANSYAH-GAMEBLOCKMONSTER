@@ -1,0 +1,227 @@
+{
+  "data": {
+    "AntiClockwise": true,
+    "castAction": "g2033_skill_chakra_03",
+    "cdAnimation": "AntiClockwise",
+    "cdTime": {
+      "value": 400
+    },
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_d1046d6f-6023-4601-b305-4f313cf83896"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/3bf47069-566e-413f-b8cc-ac675aa1d743",
+        "buffTime": {
+          "value": 400
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/equip_shield_blue.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 400
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "400f5d68-5526-454b-b20f-6517c5553114"
+                    },
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3d03bd3b-ea0a-4b6f-815e-81b6ab3c4546"
+              },
+              "pos": {
+                "x": 406,
+                "y": 98
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "14308920-8c66-4047-8c96-e59e6999b458"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/3bf47069-566e-413f-b8cc-ac675aa1d743"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "400f5d68-5526-454b-b20f-6517c5553114"
+              },
+              "pos": {
+                "x": 823,
+                "y": 139
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "14308920-8c66-4047-8c96-e59e6999b458"
+              },
+              "pos": {
+                "x": 1252,
+                "y": 116
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8c705380-40c9-4213-a083-1911b305c103"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/d1046d6f-6023-4601-b305-4f313cf83896"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7deca8a4-f304-4788-bd36-5fc1b09109a7"
+              },
+              "pos": {
+                "x": 494,
+                "y": 427
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8c705380-40c9-4213-a083-1911b305c103"
+              },
+              "pos": {
+                "x": 904,
+                "y": 348
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "1078a695-993f-43e0-8998-87bf925fa032"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "3d03bd3b-ea0a-4b6f-815e-81b6ab3c4546"
+                  },
+                  {
+                    "action": "7deca8a4-f304-4788-bd36-5fc1b09109a7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fb92f5ba-3ba2-4de2-9f79-b587f5867111"
+            },
+            "pos": {
+              "x": 161,
+              "y": 47
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ba9ba9bc17a382a836cf6b1b80a0022f",
+      "triggers.bts": "57b7312dbc2721f04a5d283c42ed788d"
+    },
+    "VERSION": "0.24"
+  }
+}

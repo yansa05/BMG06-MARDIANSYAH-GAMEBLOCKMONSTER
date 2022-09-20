@@ -1,0 +1,184 @@
+<ActorTemplates>
+	<ActorTemplate TextHeight="0" SoundFileNum="0" SoundName4="" MaxDistance="16" AttackScale="1" Skeleton="bone001.skel" SoundName2="" SoundName1="" Alpha="1" SoundName5="" Volume="0.8" SelectedRingSize="1" IntervalTime="2" MinDistance="1" Originalscale="1 1 1" IsShowShadow="true" SoundName3="" name="111.actor" WoundAngle="25" WoundBone="">
+		<Skills>
+			<Skill EnableWound="false" Name="idle" TextMode="0" UserDefineTime="-2">
+				<Animation TimeScale="1" Length="3.366" BeginTime="0" FadeTime="0.25" Name="bone001.anim" Channel="" Times="1"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="bone001.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart SlaveName="1" MasterName="body" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<Effect>
+					<TimeScale value="1"/>
+					<SocketName value="bone001"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<type_name value="g2020_yinghuashu"/>
+					<FileName value="g2020_yinghuashu.effect"/>
+					<Position_X value="0"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</Effect>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakurabase01" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0"/>
+					<FileName value="g2020_sakurabase01.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakurabase02" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="true"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="0"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0"/>
+					<FileName value="g2020_sakurabase02.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakura01_leaves01" LocalAlpha="0.5">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="true"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="-0.2"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0.5"/>
+					<FileName value="g2020_sakura01_leaves01.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakura01_leaves02" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="-0.2"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0.5"/>
+					<FileName value="g2020_sakura01_leaves02.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="2" MasterName="body" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
+				<Effect>
+					<TimeScale value="1"/>
+					<SocketName value="bone001"/>
+					<pitch value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<type_name value="g2020_yinghuashu"/>
+					<FileName value="g2020_yinghuashu.effect"/>
+					<Position_X value="0"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</Effect>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakura01_leaves01" LocalAlpha="0.5">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="true"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="-0.2"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0.5"/>
+					<FileName value="g2020_sakura01_leaves01.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" type_name="g2020_sakura01_leaves02" LocalAlpha="1">
+					<SpecularStrength value="1.0"/>
+					<pitch value="0"/>
+					<UseBloom value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<Position_Z value="-0.2"/>
+					<UseReflect value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_X value="0.5"/>
+					<FileName value="g2020_sakura01_leaves02.mesh"/>
+					<UseEdge value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

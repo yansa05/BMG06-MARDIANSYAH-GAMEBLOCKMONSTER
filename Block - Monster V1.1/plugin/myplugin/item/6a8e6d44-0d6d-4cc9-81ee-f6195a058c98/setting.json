@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 3.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "",
+  "itemname": "item_6a8e6d44-0d6d-4cc9-81ee-f6195a058c98",
+  "mesh": "asset/Mesh/Large Dynamic Flame Pattern Pet Egg/dan.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 5,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

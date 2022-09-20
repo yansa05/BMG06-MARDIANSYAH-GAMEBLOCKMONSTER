@@ -1,0 +1,48 @@
+{
+  "data": {
+    "autoMove": true,
+    "canClick": true,
+    "collision": true,
+    "hideHp": false,
+    "name": {
+      "value": "entity_85cea838-8b3b-458e-b8d5-17ea424445d7"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "71f692e8-a30b-42fb-bb85-bc5b49ccb86a"
+            },
+            "type": "Trigger_EntityDamage"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "97e2f42b-7039-41b1-b21c-d37eca781b48"
+            },
+            "pos": {
+              "x": 166,
+              "y": 80
+            }
+          },
+          "type": "Trigger_EntityDamage"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8c63822d47197be181f6a0a3cefde705",
+      "triggers.bts": "38d469dd4a57e051b1c816166453b28c"
+    },
+    "VERSION": "0.24"
+  }
+}

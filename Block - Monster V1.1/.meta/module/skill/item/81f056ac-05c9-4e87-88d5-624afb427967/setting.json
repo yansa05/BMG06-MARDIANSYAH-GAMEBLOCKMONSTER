@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/Flame Ball with Sparks Effect/gfxy207_light ball_orange_3d.effect"
+      }
+    },
+    "name": {
+      "value": "skill_81f056ac-05c9-4e87-88d5-624afb427967"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 25,
+        "hurtDistance": 1
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3d22090512e2f05fd5027f848b41ae31",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

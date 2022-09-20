@@ -1,0 +1,24 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3fb19567-5227-490e-a2cc-29051b9dc205"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_ec1258c8-ecd9-4c49-b28d-dee9aa4e1f7f"
+    },
+    "trap": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "604ed493d7faa20fdb5d224227f6d944",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

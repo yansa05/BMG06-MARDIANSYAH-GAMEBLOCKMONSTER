@@ -1,0 +1,42 @@
+{
+  "data": {
+    "attackBound": {
+      "height": 2,
+      "radius": 1.5,
+      "type": "Cylinder"
+    },
+    "attackBoundSkillSystemCfg": {
+      "height": 2,
+      "memory": {
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "radius": 1.5,
+      "type": "Cylinder"
+    },
+    "attackTarget": {
+      "attackTeam": "hitOtherTeam"
+    },
+    "castAction": {
+      "castAction": "comboAttack2"
+    },
+    "damage": 10,
+    "name": {
+      "value": "skill_system_51142074-e9b5-4e2e-af66-4910f1100e0b"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon__nor.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "53682be0834cf98c5233a76f31f3803c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

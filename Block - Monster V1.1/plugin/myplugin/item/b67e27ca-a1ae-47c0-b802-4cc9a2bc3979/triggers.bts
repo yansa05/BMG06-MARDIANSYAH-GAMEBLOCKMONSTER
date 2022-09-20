@@ -1,0 +1,6 @@
+USE_ITEM {
+	AddSkill(entity = $obj1, name = "myplugin/d1046d6f-6023-4601-b305-4f313cf83896")
+	StartTimer2(interval = 600, time = 1, timer = "") {
+		RemoveSkill(entity = $obj1, name = "myplugin/d1046d6f-6023-4601-b305-4f313cf83896")
+	}
+}

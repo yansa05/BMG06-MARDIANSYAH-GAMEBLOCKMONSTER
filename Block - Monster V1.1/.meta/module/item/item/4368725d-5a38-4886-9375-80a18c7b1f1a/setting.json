@@ -1,0 +1,29 @@
+{
+  "data": {
+    "candrop": true,
+    "canUse": true,
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/51142074-e9b5-4e2e-af66-4910f1100e0b"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Red Grimace Sword/g2030_weapon_7_4.mesh"
+    },
+    "name": {
+      "value": "item_4368725d-5a38-4886-9375-80a18c7b1f1a"
+    },
+    "stack_count_max": 10
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "24473ec2ed888d564bb89cdd525219da",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

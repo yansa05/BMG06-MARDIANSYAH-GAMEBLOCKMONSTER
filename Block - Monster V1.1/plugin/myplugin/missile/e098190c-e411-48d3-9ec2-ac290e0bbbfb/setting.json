@@ -1,0 +1,100 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityEffect": {
+    "effect": "@asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "hitEntitySkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967",
+  "hitEntitysRoles": [
+    "hitOtherTeam",
+    "hitAllEntitys",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 100,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelSizeScale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "moveAcc": 0,
+  "moveSpeed": 2,
+  "rotateFree": true,
+  "rotateSpeed": 0,
+  "startEffect": {
+    "effect": "@asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "startWithMoveAcc": true,
+  "vanishEffect": {
+    "effect": "@asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "vanishShow": false,
+  "vanishSkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967",
+  "vanishTime": 10
+}

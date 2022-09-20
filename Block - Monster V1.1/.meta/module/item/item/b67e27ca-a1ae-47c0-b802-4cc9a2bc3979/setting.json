@@ -1,0 +1,209 @@
+{
+  "data": {
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Texture/Skill/common/equip_shield_blue.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          ""
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Purple Rectangular Paper Talisman/g2030_build_fuzhou.mesh"
+    },
+    "name": {
+      "value": "item_b67e27ca-a1ae-47c0-b802-4cc9a2bc3979"
+    },
+    "stack_count_max": 20,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b1f5d755-a7b8-45c8-9748-21a334988082"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/d1046d6f-6023-4601-b305-4f313cf83896"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6fed5ca9-2fc9-4e09-9835-4b6a828f56de"
+              },
+              "pos": {
+                "x": 368,
+                "y": 16
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b1f5d755-a7b8-45c8-9748-21a334988082"
+              },
+              "pos": {
+                "x": 772,
+                "y": 29
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 600
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "36fa756b-bfdb-4b10-a792-5fa04f5c13dc"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1c34e801-c515-46d5-beeb-e03c18027cb3"
+              },
+              "pos": {
+                "x": 283,
+                "y": 170
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4edd8af4-5116-4137-8384-3c7e8e4dbd2d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/d1046d6f-6023-4601-b305-4f313cf83896"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "36fa756b-bfdb-4b10-a792-5fa04f5c13dc"
+              },
+              "pos": {
+                "x": 697,
+                "y": 266
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "4edd8af4-5116-4137-8384-3c7e8e4dbd2d"
+              },
+              "pos": {
+                "x": 1058,
+                "y": 272
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "17dee73c-843e-4b76-8a52-31ea1149578f"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "6fed5ca9-2fc9-4e09-9835-4b6a828f56de"
+                  },
+                  {
+                    "action": "1c34e801-c515-46d5-beeb-e03c18027cb3"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "34fd8251-13bf-4099-b1d2-ff7b3f53992a"
+            },
+            "pos": {
+              "x": 43,
+              "y": 28
+            }
+          },
+          "type": "Trigger_UseItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9740e4a57e22249156c63f4127d520e",
+      "triggers.bts": "f2a8dd1ed2ed5e3b50387ea2865b6080"
+    },
+    "VERSION": "0.24"
+  }
+}

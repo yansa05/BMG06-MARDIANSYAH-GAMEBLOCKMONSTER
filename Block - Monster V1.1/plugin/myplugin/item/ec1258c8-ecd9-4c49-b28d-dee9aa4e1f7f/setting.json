@@ -1,0 +1,20 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "",
+  "itemname": "item_ec1258c8-ecd9-4c49-b28d-dee9aa4e1f7f",
+  "needSave": false,
+  "skill": [
+    "myplugin/3fb19567-5227-490e-a2cc-29051b9dc205"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": true
+}

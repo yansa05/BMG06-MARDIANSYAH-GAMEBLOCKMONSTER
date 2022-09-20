@@ -1,0 +1,51 @@
+{
+  "data": {
+    "AntiClockwise": true,
+    "castAction": "attack",
+    "cdAnimation": "AntiClockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "consumeVp": 30,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_3fb19567-5227-490e-a2cc-29051b9dc205"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/7497a5aa-0816-4328-bc72-3ae77ca7e6ba"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon__act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/itemicon_bomb.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "493c9b2c748c395d6f5a6f993e6ebb7d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

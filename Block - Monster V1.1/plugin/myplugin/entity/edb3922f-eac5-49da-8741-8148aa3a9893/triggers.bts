@@ -1,0 +1,12 @@
+ENTITY_CLICK {
+	Damage(damage = 5, entity = $obj1)
+}
+
+ENTITY_DIE {
+	Foreach(array = GetAllPlayers(), key = "win") {
+		ShowTip(entity = $win, keepTime = 100, textKey = "d332eea8-c16b-41ac-811c-2f60315e763c", tipType = "1")
+		StartTimer2(interval = 80, time = 1, timer = "") {
+			GameOver()
+		}
+	}
+}

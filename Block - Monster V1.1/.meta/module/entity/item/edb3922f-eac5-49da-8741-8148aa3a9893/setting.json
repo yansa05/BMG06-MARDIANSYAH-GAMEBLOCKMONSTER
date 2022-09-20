@@ -1,0 +1,355 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Flame Dragon/Frost Dragon.actor"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "position": {
+        "y": 3,
+        "z": -1
+      },
+      "rotate": {
+        "x": 60
+      },
+      "size": {
+        "x": 1.6,
+        "y": 4,
+        "z": 1.6
+      }
+    },
+    "boundingVolumeEntityCfg": {
+      "position": {
+        "y": 3,
+        "z": -1
+      },
+      "rotate": {
+        "x": 60
+      },
+      "size": {
+        "x": 1.6,
+        "y": 4,
+        "z": 1.6
+      }
+    },
+    "canClick": true,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "gravity": 1,
+    "hideHp": false,
+    "maxHp": 1000,
+    "name": {
+      "value": "entity_edb3922f-eac5-49da-8741-8148aa3a9893"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "91a056ce-ae9c-4a9a-91cf-6fcfcc19b351"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6405dbae-9fee-4cc9-9c4a-e9a7700add80"
+              },
+              "pos": {
+                "x": 424,
+                "y": 134
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "91a056ce-ae9c-4a9a-91cf-6fcfcc19b351"
+              },
+              "pos": {
+                "x": 769,
+                "y": 165
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4c583750-b2f2-4164-95a3-f8ed8477ffbc"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "6405dbae-9fee-4cc9-9c4a-e9a7700add80"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "86b2e659-460a-447a-993e-7951d851a31b"
+            },
+            "pos": {
+              "x": 179,
+              "y": 87
+            }
+          },
+          "type": "Trigger_EntityClick"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Foreach",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "win"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Array",
+                        "action": "5e200ce4-b85a-4e68-acce-059760cdb80b"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "bf1ceb27-4a53-4a80-bfa6-98bb04339970"
+                    },
+                    [],
+                    {
+                      "action": "ee28157b-cbb0-4b5d-8024-828d1d47d7fe"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "77ee3272-97d8-4d6f-bd09-e5e15eaeea37"
+              },
+              "pos": {
+                "x": 441.15147641607,
+                "y": 422.57490907662
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "9e7b409d-6062-45dc-81e0-566127db29a5"
+              },
+              "pos": {
+                "x": 1259.6617922752,
+                "y": 901.27047286428
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ba3c5b52-c873-4ea9-a2b4-17f2193932aa"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "d332eea8-c16b-41ac-811c-2f60315e763c"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bf1ceb27-4a53-4a80-bfa6-98bb04339970"
+              },
+              "pos": {
+                "x": 902.11757487826,
+                "y": 493.4927703785
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "win"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ba3c5b52-c873-4ea9-a2b4-17f2193932aa"
+              },
+              "pos": {
+                "x": 1367.5160396718,
+                "y": 449.16910706483
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetAllPlayers",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "5e200ce4-b85a-4e68-acce-059760cdb80b"
+              },
+              "pos": {
+                "x": 900.64011943448,
+                "y": 395.98071108842
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 80
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "9e7b409d-6062-45dc-81e0-566127db29a5"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ee28157b-cbb0-4b5d-8024-828d1d47d7fe"
+              },
+              "pos": {
+                "x": 835.63207990776,
+                "y": 737.2729186037
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "460db4a0-bbaa-44f5-ae6a-5008899000c6"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "77ee3272-97d8-4d6f-bd09-e5e15eaeea37"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d5aef83c-104b-44da-b4fc-4473de68424f"
+            },
+            "pos": {
+              "x": 144.421436411773,
+              "y": 492.207072294047
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c3fe1258c284ae38cf99f93abe5f0d4f",
+      "triggers.bts": "8f31e4b694af408d59e703f05706ab24"
+    },
+    "VERSION": "0.24"
+  }
+}

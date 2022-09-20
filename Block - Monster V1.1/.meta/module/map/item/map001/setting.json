@@ -1,0 +1,1145 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png",
+          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139055390721",
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyLineColor": {
+          "b": 139,
+          "g": 131,
+          "r": 127
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8636598139123630081",
+        "lightBrightness": 0.8,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "x": 50,
+          "y": -90,
+          "z": -30
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "y": 6
+            },
+            "btsKey": "19def81f-3a71-46c0-a84b-4df4f24ec158",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8806988230102745089",
+            "massCenter": {
+              "y": 6
+            },
+            "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh",
+              "selector": "asset/Mesh/Purple Square Area/g2047_4_21_qiang.mesh"
+            },
+            "name": "Wall",
+            "position": {
+              "y": 6
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.19161,
+              "y": 3.19161,
+              "z": 3.19161
+            },
+            "size": {
+              "x": 70,
+              "y": 10.4061260223389,
+              "z": 70
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "y": 7
+            },
+            "btsKey": "3ee205eb-236e-4de9-8483-47f1e69a98c5",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8806989416502771713",
+            "massCenter": {
+              "y": 7
+            },
+            "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh",
+              "selector": "asset/Mesh/Purple Square Area/g2047_4_21_boli.mesh"
+            },
+            "name": "Wall2",
+            "position": {
+              "y": 7
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.21704,
+              "y": 3.21704,
+              "z": 3.21704
+            },
+            "size": {
+              "x": 70,
+              "y": 3.60679841041565,
+              "z": 69.9999847412109
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart",
+            "anchorPoint": {
+              "y": 1
+            },
+            "btsKey": "dfec1b74-f4d5-4e1c-988b-21d4de81cbc2",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8806990996451082241",
+            "massCenter": {
+              "y": 1
+            },
+            "mesh": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh",
+            "mesh_selector": {
+              "asset": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh",
+              "selector": "asset/Mesh/Purple Square Area/g2047_4_21_dimian.mesh"
+            },
+            "name": "land",
+            "position": {
+              "y": 1
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.30189,
+              "y": 3.30189,
+              "z": 3.30189
+            },
+            "size": {
+              "x": 70,
+              "y": 0.660377383232117,
+              "z": 70
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8806993705364389889",
+        "position": {
+          "y": 5.93643671274185
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ffe6a31d-8448-4e3d-9573-874749ce0887",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8806996139306909697",
+            "massCenter": {
+              "x": -0.132252395153046,
+              "y": 1,
+              "z": 44.573543548584
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": -0.132252395153046,
+              "y": 1,
+              "z": 44.573543548584
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 17,
+              "z": 20
+            },
+            "size": {
+              "x": 17,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7e77ff54-9908-4f4c-8fc6-ee7433d03371",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8806999634751782913",
+            "massCenter": {
+              "x": -8.51525402069092,
+              "y": 3.42999982833862,
+              "z": 44.7395324707031
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": -8.51525402069092,
+              "y": 3.42999982833862,
+              "z": 44.7395324707031
+            },
+            "restitution": 0.2,
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6d783aec-c1a5-493c-b5f0-2a3e1466bc97",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807001709094322177",
+            "massCenter": {
+              "x": 8.52974700927734,
+              "y": 3.42999982833862,
+              "z": 44.7395324707031
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": 8.52974700927734,
+              "y": 3.42999982833862,
+              "z": 44.7395324707031
+            },
+            "restitution": 0.2,
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "23672f34-27e3-451e-bca2-a4f4f52e6a47",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807003258072154113",
+            "massCenter": {
+              "x": -0.00425460934638977,
+              "y": 3.42999982833862,
+              "z": 54.6625061035156
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": -0.00425460934638977,
+              "y": 3.42999982833862,
+              "z": 54.6625061035156
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 18,
+              "y": 15
+            },
+            "size": {
+              "x": 18,
+              "y": 15
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "fe7bd807-0ca2-45ed-aef4-423fa9a58ded",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8808484112454844417",
+            "massCenter": {
+              "x": -34.9892272949219,
+              "y": 3.42999982833862,
+              "z": -0.849464416503906
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": -34.9892272949219,
+              "y": 3.42999982833862,
+              "z": -0.849464416503906
+            },
+            "restitution": 0.2,
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "e7614b75-241d-4970-b301-e4e266082514",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8808484927369936897",
+            "massCenter": {
+              "x": 35.2087860107422,
+              "y": 3.42999982833862,
+              "z": -0.849464416503906
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": 35.2087860107422,
+              "y": 3.42999982833862,
+              "z": -0.849464416503906
+            },
+            "restitution": 0.2,
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          }
+        ],
+        "id": "8807004784604037121",
+        "name": "BlueBase",
+        "position": {
+          "x": 0.00724649429321289,
+          "y": 3.42999982833862,
+          "z": 44.8680248260498
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "ffe6a31d-8448-4e3d-9573-874749ce0887",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807005278912380929",
+            "massCenter": {
+              "x": 0.146747380495071,
+              "y": 1.00000023841858,
+              "z": -44.4674873352051
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": 0.146747380495071,
+              "y": 1.00000023841858,
+              "z": -44.4674873352051
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -179.999984741211
+            },
+            "scale": {
+              "x": 17,
+              "z": 20
+            },
+            "size": {
+              "x": 17,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "7e77ff54-9908-4f4c-8fc6-ee7433d03371",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807005278921342977",
+            "massCenter": {
+              "x": 8.52975463867188,
+              "y": 3.42999982833862,
+              "z": -44.6334762573242
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": 8.52975463867188,
+              "y": 3.42999982833862,
+              "z": -44.6334762573242
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -179.999984741211
+            },
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "6d783aec-c1a5-493c-b5f0-2a3e1466bc97",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807005278930436097",
+            "massCenter": {
+              "x": -8.51526069641113,
+              "y": 3.42999982833862,
+              "z": -44.6334686279297
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": -8.51526069641113,
+              "y": 3.42999982833862,
+              "z": -44.6334686279297
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -179.999984741211
+            },
+            "scale": {
+              "y": 15,
+              "z": 20
+            },
+            "size": {
+              "y": 15,
+              "z": 20
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "btsKey": "23672f34-27e3-451e-bca2-a4f4f52e6a47",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8807005278940790785",
+            "massCenter": {
+              "x": 0.0187472719699144,
+              "y": 3.42999982833862,
+              "z": -54.5564613342285
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0
+              },
+              "texture": "part_muban.tga"
+            },
+            "name": "BlueBase",
+            "position": {
+              "x": 0.0187472719699144,
+              "y": 3.42999982833862,
+              "z": -54.5564613342285
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -179.999984741211
+            },
+            "scale": {
+              "x": 18,
+              "y": 15
+            },
+            "size": {
+              "x": 18,
+              "y": 15
+            },
+            "staticBatchNo": "auto_batch_0",
+            "useAnchor": true
+          }
+        ],
+        "id": "8807005278954422273",
+        "name": "RedBase",
+        "position": {
+          "x": 0.00724831083789468,
+          "y": 3.42999982833862,
+          "z": -44.7689666748047
+        },
+        "rotation": {
+          "y": -179.999984741211
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "y": 15.7049999237061
+        },
+        "btsKey": "d032a4d8-265a-42f6-aaa9-a6c3dd3bea0b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/Yellow Descending Light Pillar Effect/zmzz210_gravity field_01_yellow_3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/Yellow Descending Light Pillar Effect/zmzz210_gravity field_01_yellow_3d.effect"
+            },
+            "id": "8808440121787383809",
+            "position": {
+              "y": 6.995
+            },
+            "size": {
+              "x": 9.99998760223389,
+              "y": 13.4173336029053,
+              "z": 9.99997615814209
+            },
+            "transform": {
+              "pos": {
+                "y": -8.71
+              }
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807013321554034689",
+        "massCenter": {
+          "y": 15.705
+        },
+        "mesh": "asset/Mesh/Blue Technology Elevator/g2042_build_dianti.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Blue Technology Elevator/g2042_build_dianti.mesh",
+          "selector": "asset/Mesh/Blue Technology Elevator/g2042_build_dianti.mesh"
+        },
+        "name": "g2042_build_dianti.mesh",
+        "position": {
+          "y": 15.705
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 15.4264326095581,
+          "y": 29.7052745819092,
+          "z": 15.486475944519
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -0.0587654113769531,
+          "y": 1.70000195503235,
+          "z": 44.2605476379395
+        },
+        "btsKey": "712a5901-46c3-49d9-a3f9-1d03f02f6f0c",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807678729676701697",
+        "massCenter": {
+          "x": -0.0587654113769531,
+          "y": 1.70000195503235,
+          "z": 44.2605476379395
+        },
+        "mesh": "asset/Mesh/Blue Curved Wall/g2038_daoguan_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Blue Curved Wall/g2038_daoguan_1.mesh",
+          "selector": "asset/Mesh/Blue Curved Wall/g2038_daoguan_1.mesh"
+        },
+        "name": "BaseBlue",
+        "position": {
+          "x": -0.0587654113769531,
+          "y": 1.70000195503235,
+          "z": 44.2605476379395
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 98.52,
+          "y": 98.52,
+          "z": 98.52
+        },
+        "size": {
+          "x": 39.0986442565918,
+          "y": 19.7040004730225,
+          "z": 39.0986442565918
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -0.710918426513672,
+          "y": 1.55699932575226,
+          "z": -44.7073707580566
+        },
+        "btsKey": "a6453f03-babf-4045-9b0a-d3581e44b0fe",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807709884871884801",
+        "massCenter": {
+          "x": -0.710918426513672,
+          "y": 1.55699932575226,
+          "z": -44.7073707580566
+        },
+        "mesh": "asset/Mesh/Red Curved Wall/g2038_daoguan_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Red Curved Wall/g2038_daoguan_2.mesh",
+          "selector": "asset/Mesh/Red Curved Wall/g2038_daoguan_2.mesh"
+        },
+        "name": "BaseRed",
+        "position": {
+          "x": -0.710918426513672,
+          "y": 1.55699932575226,
+          "z": -44.7073707580566
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 101.079,
+          "y": 101.078,
+          "z": 101.078
+        },
+        "size": {
+          "x": 40.1140213012695,
+          "y": 20.2157001495361,
+          "z": 40.1139945983887
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "y": 2
+        },
+        "batchType": "Dynamic",
+        "btsKey": "0498c068-9aea-47ff-9e43-52b9065d5fbb",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807728797335093249",
+        "massCenter": {
+          "y": 2
+        },
+        "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
+          "selector": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh"
+        },
+        "name": "g2047_3_27_qiang.mesh",
+        "position": {
+          "y": 2
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.928397,
+          "y": 0.928397,
+          "z": 0.928397
+        },
+        "size": {
+          "x": 25.9290008544922,
+          "y": 3.02794170379639,
+          "z": 25.9290008544922
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -20,
+          "y": 1,
+          "z": -20
+        },
+        "btsKey": "a61f8c37-84d5-4351-bc12-b3e002aab319",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8807743359953125377",
+            "position": {
+              "x": -20,
+              "y": 1,
+              "z": -20
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807733863302283265",
+        "massCenter": {
+          "x": -20,
+          "y": 1,
+          "z": -20
+        },
+        "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+          "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
+        },
+        "name": "Npc_spawan1",
+        "position": {
+          "x": -20,
+          "y": 1,
+          "z": -20
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 3.76910901069641,
+          "y": 0.356898099184036,
+          "z": 3.76910471916199
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 20,
+          "y": 1,
+          "z": -20
+        },
+        "btsKey": "dec32aa0-f11c-43fa-bec8-c25aa39c0e64",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8807743945903439873",
+            "position": {
+              "x": 20,
+              "y": 1,
+              "z": -20
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807735235097477121",
+        "massCenter": {
+          "x": 20,
+          "y": 1,
+          "z": -20
+        },
+        "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+          "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
+        },
+        "name": "Npc_spawan2",
+        "position": {
+          "x": 20,
+          "y": 1,
+          "z": -20
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 3.76910901069641,
+          "y": 0.356898099184036,
+          "z": 3.76910471916199
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -20,
+          "y": 1,
+          "z": 20
+        },
+        "btsKey": "85bfc69c-3a13-44db-965f-223db868698a",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8807743165620666369",
+            "position": {
+              "x": -20,
+              "y": 1,
+              "z": 20
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807735795129466881",
+        "massCenter": {
+          "x": -20,
+          "y": 1,
+          "z": 20
+        },
+        "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+          "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
+        },
+        "name": "Npc_spawan3",
+        "position": {
+          "x": -20,
+          "y": 1,
+          "z": 20
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 3.76910901069641,
+          "y": 0.356898099184036,
+          "z": 3.76910471916199
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 20,
+          "y": 1,
+          "z": 20
+        },
+        "btsKey": "571e5f64-20a9-4c97-ae6f-37ecb69066f5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8807743519404982273",
+            "position": {
+              "x": 20,
+              "y": 1,
+              "z": 20
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8807736163189882881",
+        "massCenter": {
+          "x": 20,
+          "y": 1,
+          "z": 20
+        },
+        "mesh": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh",
+          "selector": "asset/Mesh/Yellow Blue Round Base/g2047_hall_door.mesh"
+        },
+        "name": "Npc_spawan4",
+        "position": {
+          "x": 20,
+          "y": 1,
+          "z": 20
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 3.76910901069641,
+          "y": 0.356898099184036,
+          "z": 3.76910471916199
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/b67e27ca-a1ae-47c0-b802-4cc9a2bc3979",
+        "id": "8808336658487181313",
+        "position": {
+          "x": -45.7916259765625,
+          "y": 0.999901294708252,
+          "z": 60.0345764160156
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/b67e27ca-a1ae-47c0-b802-4cc9a2bc3979",
+        "id": "8808336891521548289",
+        "position": {
+          "x": -45.7916259765625,
+          "y": 0.999901294708252,
+          "z": 60.0345764160156
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/edb3922f-eac5-49da-8741-8148aa3a9893",
+        "id": "8808437528090345473",
+        "name": "Blue Dragon",
+        "position": {
+          "x": -0.493299186229706,
+          "y": -0.607178211212158,
+          "z": 48.7625846862793
+        },
+        "rotation": {
+          "y": 173.999954223633
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/b8d0daf2-e2e2-4c04-a643-a647c92d77c9",
+        "id": "8808438135908155393",
+        "name": "Red Dragon",
+        "position": {
+          "x": 0.745458543300629,
+          "y": -0.196173667907715,
+          "z": -50.0532989501953
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "0b412fa4-ae18-463c-a357-2b6c418459ae",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/effect/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/effect/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8809796194241380353",
+            "position": {
+              "y": 1.79500019550323
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8808441494716383233",
+        "massCenter": {
+          "y": 1.79500019550323
+        },
+        "material": {
+          "color": {
+            "b": 89,
+            "g": 89,
+            "r": 89
+          }
+        },
+        "name": "Part_teleport_1",
+        "position": {
+          "y": 1.79500019550323
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5,
+          "y": 0.01,
+          "z": 5
+        },
+        "shape": "3",
+        "size": {
+          "x": 5,
+          "y": 0.01,
+          "z": 5
+        },
+        "staticBatchNo": "auto_batch_0",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "52c43ee9-b85f-4a65-a60f-880823bb860c",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/effect/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect",
+              "selector": "editor/Block - Monster V1.1/asset/effect/Rainbow Arrow Click Effect/sots208_arrow click_01_color _3d.effect"
+            },
+            "id": "8809796533469511681",
+            "position": {
+              "x": -0.0490001514554024,
+              "y": 30.689001083374,
+              "z": 5.11950063705444
+            },
+            "size": {
+              "x": 13.4999990463257,
+              "y": 13.4999990463257,
+              "z": 13.4999980926514
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8808446286092140545",
+        "massCenter": {
+          "x": -0.0490001514554024,
+          "y": 30.689001083374,
+          "z": 5.11950063705444
+        },
+        "material": {
+          "color": {
+            "b": 77,
+            "g": 43,
+            "r": 24
+          }
+        },
+        "name": "Part_teleport_2",
+        "position": {
+          "x": -0.0490001514554024,
+          "y": 30.689001083374,
+          "z": 5.11950063705444
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.14098,
+          "y": 0.00999994,
+          "z": 3.14098
+        },
+        "shape": "3",
+        "size": {
+          "x": 3.14097571372986,
+          "y": 0.00999994482845068,
+          "z": 3.14097547531128
+        },
+        "staticBatchNo": "auto_batch_0",
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "rotateSpeed": 1,
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "da9c5baf714274f5cd741bece2ba7517"
+    },
+    "VERSION": "0.24"
+  }
+}

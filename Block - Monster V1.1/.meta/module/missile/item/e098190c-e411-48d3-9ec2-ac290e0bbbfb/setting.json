@@ -1,0 +1,32 @@
+{
+  "data": {
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect"
+      }
+    },
+    "hitEntitySkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967",
+    "name": {
+      "value": "missile_e098190c-e411-48d3-9ec2-ac290e0bbbfb"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect"
+      }
+    },
+    "target_team": "hitOtherTeam",
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/Blue and Purple Arc Flash Effect/ljpk206_arc flash_01_purple_3d.effect"
+      }
+    },
+    "vanishSkill": "myplugin/81f056ac-05c9-4e87-88d5-624afb427967"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2096e65efe1fd3684cecde28f317789f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}
